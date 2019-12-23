@@ -118,9 +118,15 @@ int main ()
 Questões para treino:
 
 Banco de dados: https://www.thehuxley.com/problem/331?quizId=4285
+
 Ambrosio Bus company: https://www.thehuxley.com/problem/268?quizId=4285
+
 Banco dos inimigos: https://www.thehuxley.com/problem/476?quizId=4285
+
 Características Físicas:https://www.thehuxley.com/problem/73?quizId=4285
+
 Escolhendo a vocação: https://www.thehuxley.com/problem/477?quizId=4285
+
 Lanchonete da ambrosina: https://www.thehuxley.com/problem/12?quizId=4285
+
 Olimpíadas: https://www.thehuxley.com/problem/58?quizId=4285
