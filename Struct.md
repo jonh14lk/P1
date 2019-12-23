@@ -64,3 +64,53 @@ void imp_struct (struct pessoa p [], int i , int n)
     
 }
 ```
+Código do exemplo completo:
+```c
+#include <stdio.h>
+
+struct pessoa
+{
+    double Peso;   
+    int Idade;    
+    double Altura; 
+};
+void imp_struct (struct pessoa p [], int i , int n)
+{
+    if (i == n)
+    {
+        return ;
+    }
+    else
+    {
+        printf("Peso: %.2lf\n", p[i].Peso);
+        printf("Idade: %d\n", p[i].Idade);
+        printf("Altura: %.2lf\n", p[i].Altura);
+        imp_struct(p , i + 1 , n);
+    }
+    
+}
+void ler_struct (struct pessoa p [], int i , int n)
+{
+    if (i == n)
+    {
+        return ;
+    }
+    else
+    {
+        scanf("%lf", &p[i].Peso);
+        scanf("%d", &p[i].Idade);
+        scanf("%lf", &p[i].Altura);
+        ler_struct(p , i + 1 , n);
+    }
+    
+}
+int main ()
+{
+    int n;
+    scanf("%d", &n);
+    struct pessoa p [n];
+    ler_struct(p , 0 , n);
+    imp_struct(p , 0 , n);
+    return 0 ;
+}
+```
