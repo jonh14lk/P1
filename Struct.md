@@ -26,7 +26,7 @@ int main ()
 }
 ```
 
-Para ler e imprimir os elementos da struct, podemos fazer funções recursivas para isto
+Para ler os elementos da struct, podemos fazer uma função para isto.
 
 ```c
 ler_struct (struct pessoa p [], int i , int n)
@@ -45,6 +45,7 @@ ler_struct (struct pessoa p [], int i , int n)
     
 }
 ```
+E para imprimir também.
 
 ```c
 imp_struct (struct pessoa p [], int i , int n)
