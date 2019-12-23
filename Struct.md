@@ -9,9 +9,9 @@ conforme o exemplo a seguir.
 ```c
 struct pessoa
 {
-    float Peso;   
+    double Peso;   
     int Idade;    
-    float Altura; 
+    double Altura; 
 };
 ```
 
@@ -29,7 +29,7 @@ int main ()
 Para ler os elementos da struct, podemos fazer uma função para isto.
 
 ```c
-ler_struct (struct pessoa p [], int i , int n)
+void ler_struct (struct pessoa p [], int i , int n)
 {
     if (i == n)
     {
@@ -48,7 +48,7 @@ ler_struct (struct pessoa p [], int i , int n)
 E para imprimir também.
 
 ```c
-imp_struct (struct pessoa p [], int i , int n)
+void imp_struct (struct pessoa p [], int i , int n)
 {
     if (i == n)
     {
