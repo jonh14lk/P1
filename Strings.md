@@ -60,9 +60,9 @@ strcat(string_destino, string_origem) ; // concatena o conteudo de uma string co
 strlen(string) ; // retorna o tamanho da string em inteiro
 
 strcmp(string1, string2) ; // compara o conteudo de duas strings e tem 3 possiveis tipos de retorno
-//0: conteudo das strings são iguais
-//< 0: conteúdo da string1 é menor do que string2
-//> 0: conteúdo da string1 é maior do que string2
+// inteiro igual a 0: conteudo das strings são iguais
+// inteiro menor do 0: conteúdo da string1 é menor do que string2
+// inteiro maior do que 0: conteúdo da string1 é maior do que string2
 ```
 
 Vale ressaltar que existem várias outras funções na string.h
