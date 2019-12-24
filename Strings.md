@@ -53,7 +53,17 @@ Para as strings, existem várias funções importantes que estão na biblioteca 
 Entre as várias existentes, as principais sao:
 
 ```c
+strcpy (string_destino, string_origem) ; // Copia o conteudo de uma string para outra
 
+strcat(string_destino, string_origem) ; // concatena o conteudo de uma string com outra 
+
+int tamanho = strlen(string) ; // retorna o tamanho da string em inteiro
+
+int compare = strcmp(string1, string2) ; // compara o conteudo de duas strings e tem 3 possiveis tipos de retorno
+
+0: conteúdo das strings são iguais
+< 0: conteúdo da string1 é menor do que string2
+> 0: conteúdo da string1 é maior do que string2
 ```
 
 Vale ressaltar que existem várias outras funções na string.h
