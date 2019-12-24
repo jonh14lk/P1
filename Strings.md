@@ -49,3 +49,13 @@ Para as strings, existem várias funções importantes que estão na biblioteca 
 ```c
 #include <string.h> // declarando a bibiloteca string.h
 ```
+
+Entre as várias existentes, as principais sao:
+
+```c
+
+```
+
+Vale ressaltar que existem várias outras funções na string.h
+
+A explicação sobre outras funções estão disponiveis na referência do site cplusplus : http://www.cplusplus.com/reference/cstring/?kw=string.h
