@@ -29,6 +29,12 @@ scanf(" %s", string); // lendo a string, note que nao é necessario usar o '&' n
 printf("%s\n", string); // imprimido a string que foi lida anteriormente
 ```
 
+Por padrão, uma string é lida até ser encontrado um espaço ou uma quebra de linha, mas se quisermos ler todos os espaços e parar a leitura da string apenas na quebra de linha, basta ler apenas usando o seguinte:
+
+```c
+scanf(" %[^\n]s", string); // lendo a string enquanto o caractere lido for diferente de '\n'
+```
+
 Para as strings, existem várias funções importantes que existem na biblioteca string.h
 
 ```c
