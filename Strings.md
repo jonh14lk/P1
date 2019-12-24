@@ -53,7 +53,7 @@ Para as strings, existem várias funções importantes que estão na biblioteca 
 Entre as várias existentes, as principais sao:
 
 ```c
-strcpy (string_destino, string_origem) ; // Copia o conteudo de uma string para outra
+strcpy(string_destino, string_origem) ; // Copia o conteudo de uma string para outra
 
 strcat(string_destino, string_origem) ; // concatena o conteudo de uma string com outra 
 
