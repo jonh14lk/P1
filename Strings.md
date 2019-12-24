@@ -18,7 +18,7 @@ as strings podem ter tamanho menor ou igual do que o tamanho do array em que ela
 ```c
 char string [256] = "Ola" ; // declarando a string str, que tem tamanho 4
 ```
-No exemplo, a string tem tamanho 4, pois ela tem os caracteres 'o' , 'l' , 'a' e o caractere que indica o final da string '\0'.
+No exemplo, a string tem tamanho 4, pois ela tem os caracteres 'O' , 'l' , 'a' e o caractere que indica o final da string '\0'.
 
 Para as strings, existem várias funções importantes que existem na biblioteca string.h
 
