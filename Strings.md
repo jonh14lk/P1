@@ -24,6 +24,8 @@ Uma outra observação importante também é que para a leitura e impressão de 
 
 ```c
 char string [256]; 
+
+
 scanf(" %s", string); // lendo a string, note que nao é necessario usar o '&' na leitura da string
 printf("%s\n", string); // imprimido a string que foi lida anteriormente
 ```
