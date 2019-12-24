@@ -10,5 +10,5 @@ Para representar uma string em C, devemos criar um vetor de caracteres, ou seja 
 
 
 ```c
-char string [256]; // declarando a string
+char string [256]; // declarando a string str, que tem tamanho máximo de 256
 ```
