@@ -39,6 +39,7 @@ Assim como qualquer array de outro tipo, também é possível manipular cada car
 
 ```c
 string[10] = 'a' ; // a string na posição 10 recebe o caractere 'a' 
+
 scanf(" %c", &string[14]); // lendo apenas a posição 14 da string
 printf("%c\n", string[3]); // imprimindo o caractere da posição 3 da string
 ```
