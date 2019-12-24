@@ -39,7 +39,7 @@ Assim como qualquer array de outro tipo, também é possível manipular cada car
 
 ```c
 string[10] = 'a' ; // a string na posição 10 recebe o caractere 'a' 
-scanf(" %c", string[14]); // lendo apenas a posição 14 da string
+scanf(" %c", &string[14]); // lendo apenas a posição 14 da string
 ```
 
 Para as strings, existem várias funções importantes que existem na biblioteca string.h
