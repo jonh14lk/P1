@@ -78,7 +78,7 @@ Outras funções importantes também são encontradas na biblioteca stdlib.h
 Entre elas:
 
 ```c
-int num = atoi (string) ; // transforma uma string em inteiro 
+int num = atoi(string) ; // transforma uma string em inteiro 
 ```
 
 A explicação sobre outras funções da stdlib.h pode ser encontrada na referência do cplusplus: http://www.cplusplus.com/reference/cstdlib/
