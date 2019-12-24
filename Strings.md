@@ -20,6 +20,14 @@ char string [256] = "Ola" ; // declarando a string str, que tem tamanho 4
 ```
 No exemplo, a string tem tamanho 4, pois ela tem os caracteres 'O' , 'l' , 'a' e o caractere que indica o final da string '\0'.
 
+Uma outra observação importante também é que para a leitura e impressão de strings não é necessário ler de caractere por caractere ou imprimir de caractere em caractere, o tipo de dado %s nos permite ler a string em apenas um scanf e imprimir a string em apenas um printf.
+
+```c
+char string [256]; 
+scanf(" %s", string); // lendo a string, note que nao é necessario usar o '&' na leitura da string
+printf("%s\n", string); // imprimido a string que foi lida anteriormente
+```
+
 Para as strings, existem várias funções importantes que existem na biblioteca string.h
 
 ```c
