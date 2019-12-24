@@ -82,3 +82,14 @@ int num = atoi(string) ; // transforma uma string em inteiro
 ```
 
 A explicação sobre outras funções da stdlib.h pode ser encontrada na referência do cplusplus: http://www.cplusplus.com/reference/cstdlib/
+
+Questões para treino:
+
+Inverter uma string: https://www.thehuxley.com/problem/247?locale=pt_BR
+As duas strings são iguais? : https://www.thehuxley.com/problem/253?locale=pt_BR
+Concatenação de nomes: https://www.thehuxley.com/problem/2409?locale=pt_BR
+Correção de provas: https://www.thehuxley.com/problem/76?locale=pt_BR
+Some dois números grandes: https://www.thehuxley.com/problem/526?locale=pt_BR
+Vestibular: https://www.thehuxley.com/problem/360?locale=pt_BR
+Frutas: https://www.thehuxley.com/problem/321?locale=pt_BR
+huaauhahhuahau: https://www.thehuxley.com/problem/1142
