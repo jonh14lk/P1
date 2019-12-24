@@ -58,4 +58,4 @@ Entre as várias existentes, as principais sao:
 
 Vale ressaltar que existem várias outras funções na string.h
 
-A explicação sobre outras funções estão disponiveis na referência do site cplusplus : http://www.cplusplus.com/reference/cstring/?kw=string.h
+A explicação sobre outras funções estão disponiveis na referência no site cplusplus : http://www.cplusplus.com/reference/cstring/?kw=string.h
