@@ -68,3 +68,13 @@ strcmp(string1, string2) ; // compara o conteudo de duas strings e tem 3 possive
 Vale ressaltar que existem várias outras funções na string.h
 
 A explicação sobre outras funções estão disponiveis na referência no site cplusplus : http://www.cplusplus.com/reference/cstring/?kw=string.h
+
+Outras funções importantes também são encontradas na biblioteca stdlib.h
+
+```c
+#include <stdlib.h> // declarando a bibiloteca stdlib.h
+```
+
+Entre elas:
+
+
