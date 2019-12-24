@@ -35,6 +35,13 @@ Por padrão, uma string é lida até ser encontrado um espaço ou uma quebra de 
 scanf(" %[^\n]s", string); // lendo a string enquanto o caractere lido for diferente de '\n'
 ```
 
+Assim como qualquer array de outro tipo, também é possível manipular cada caractere da string.
+
+```c
+string[10] = 'a' ; // a string na posição 10 recebe o caractere 'a' 
+scanf(" %c", string[14]); // lendo apenas a posição 14 da string
+```
+
 Para as strings, existem várias funções importantes que existem na biblioteca string.h
 
 ```c
