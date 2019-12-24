@@ -13,7 +13,7 @@ Para representar uma string em C, devemos criar um vetor de caracteres, ou seja 
 char string [256]; // declarando a string str, que armazena 256 caracteres no máximo
 ```
 Uma importante observação sobre strings é a de que, o final da string é determinado sempre pelo caractere nulo '\0', ou seja,
-as strings podem ter tamanho menor do que o tamanho do array de chars em que ela está contida.
+as strings podem ter tamanho menor ou igual do que o tamanho do array em que ela está contida.
 
 Para as strings, existem várias funções importantes que existem na biblioteca string.h
 
