@@ -77,4 +77,6 @@ Outras funções importantes também são encontradas na biblioteca stdlib.h
 
 Entre elas:
 
-
+```c
+int num = atoi (string) ; // transforma uma string em inteiro 
+```
