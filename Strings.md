@@ -60,7 +60,7 @@ strcat(string_destino, string_origem) ; // concatena o conteudo de uma string co
 strlen(string) ; // retorna o tamanho da string em inteiro
 
 strcmp(string1, string2) ; // compara o conteudo de duas strings e tem 3 possiveis tipos de retorno
-0: conteúdo das strings são iguais
+0: conteudo das strings são iguais
 < 0: conteúdo da string1 é menor do que string2
 > 0: conteúdo da string1 é maior do que string2
 ```
