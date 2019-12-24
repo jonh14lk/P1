@@ -44,7 +44,7 @@ scanf(" %c", &string[14]); // lendo apenas a posição 14 da string
 printf("%c\n", string[3]); // imprimindo o caractere da posição 3 da string
 ```
 
-Para as strings, existem várias funções importantes que existem na biblioteca string.h
+Para as strings, existem várias funções importantes que estão na biblioteca string.h
 
 ```c
 #include <string.h> // declarando a bibiloteca string.h
