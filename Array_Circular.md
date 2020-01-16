@@ -51,9 +51,12 @@ https://www.thehuxley.com/problem/1001?locale=pt_BR
 Exemplo de Implementação:
 
 ```bash
-matriz[i % n][j % m] = 0 ;
-matriz[(i + 1) % n][(j + 1) % m] = 0 ;
-matriz[(i - 1) % n][(j + 1) % m] = 0 ;
-matriz[(i + 1) % n][(j - 1) % m] = 0 ;
-matriz[(i - 1) % n][(j - 1) % m] = 0 ;
+void bomb (int n , int m , int matriz [][m])
+{
+    matriz[i % n][j % m] = 0 ;
+    matriz[(i + 1) % n][(j + 1) % m] = 0 ;
+    matriz[(i - 1) % n][(j + 1) % m] = 0 ;
+    matriz[(i + 1) % n][(j - 1) % m] = 0 ;
+    matriz[(i - 1) % n][(j - 1) % m] = 0 ;
+}
 ```
