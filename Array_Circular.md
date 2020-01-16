@@ -46,4 +46,4 @@ https://www.thehuxley.com/problem/1001?locale=pt_BR
 ... uma bomba dos ixats destrói uma area em formato de X, ou seja , se a posição (x, y) é atacada, todas as suas 4 diagonais mais próximas também são destruídas em seguida com a propagação da bomba: (x+1, y+1), (x+1, y-1), (x-1, y-1), (x-1, y+1)...
 
 
-... A propagação das bombas em formato de X também obedecem as regras dos buracos de minhoca, ou seja, a linha/coluna anterior a primeira linha/coluna é a ultima linha/coluna e a posterior a a ultima linha/coluna é a primeira linha/coluna.
+... A propagação das bombas em formato de X também obedecem as regras dos buracos de minhoca, ou seja, a linha anterior a primeira linha é a ultima linha assim que nem a posterior a ultima linha é a primeira linha. Isso também é válido para as colunas da matriz.
