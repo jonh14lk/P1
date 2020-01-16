@@ -47,3 +47,13 @@ https://www.thehuxley.com/problem/1001?locale=pt_BR
 
 
 ... A propagação das bombas em formato de X também obedecem as regras dos buracos de minhoca, ou seja, a linha anterior a primeira linha é a ultima linha assim que nem a posterior a ultima linha é a primeira linha. Isso também é válido para as colunas da matriz.
+
+Exemplo de Implementação:
+
+```bash
+matriz[i % n][j % m] = 0 ;
+matriz[(i + 1) % n][(j + 1) % m] = 0 ;
+matriz[(i - 1) % n][(j + 1) % m] = 0 ;
+matriz[(i + 1) % n][(j - 1) % m] = 0 ;
+matriz[(i - 1) % n][(j - 1) % m] = 0 ;
+```
