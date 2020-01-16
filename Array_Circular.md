@@ -51,12 +51,12 @@ https://www.thehuxley.com/problem/1001?locale=pt_BR
 Exemplo de Implementação:
 
 ```c
-void bomb (int n , int m , int matriz [][m] , int i)
+void bomb (int n , int m , int matriz [][m] , int i , int a , int b)
 {
-    matriz[i % n][j % m] = 0 ;
-    matriz[(i + 1) % n][(j + 1) % m] = 0 ;
-    matriz[(i - 1) % n][(j + 1) % m] = 0 ;
-    matriz[(i + 1) % n][(j - 1) % m] = 0 ;
-    matriz[(i - 1) % n][(j - 1) % m] = 0 ;
+    matriz[a % n][b % m] = 0 ;
+    matriz[abs((a + 1) % n)][abs((b + 1) % m)] = 0 ; // usamos modulo(abs) para nunca pegar uma posição negativa do array
+    matriz[abs((a - 1) % n)][abs((b + 1) % m)] = 0 ;
+    matriz[abs((a + 1) % n)][abs((b - 1) % m)] = 0 ;
+    matriz[abs((a - 1) % n)][abs((b - 1) % m)] = 0 ;
 }
 ```
