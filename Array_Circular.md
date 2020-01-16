@@ -37,3 +37,11 @@ int main()
     return 0; 
 } 
 ```
+
+## Matriz circular 
+
+1001 - Ixats vs Rebus
+https://www.thehuxley.com/problem/1001?locale=pt_BR
+
+... uma bomba dos ixats destrói uma area em formato de X, ou seja , se a posição (x, y) é atacada, todas as suas 4 diagonais mais próximas também são destruídas em seguida com a propagação da bomba: (x+1, y+1), (x+1, y-1), (x-1, y-1), (x-1, y+1)...
+A propagação das bombas em formato de X também obedecem as regras dos buracos de minhoca, ou seja, a linha/coluna anterior a primeira linha/coluna é a ultima linha/coluna e a posterior a a ultima linha/coluna é a primeira linha/coluna.
