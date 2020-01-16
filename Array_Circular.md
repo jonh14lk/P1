@@ -51,7 +51,7 @@ https://www.thehuxley.com/problem/1001?locale=pt_BR
 Exemplo de Implementação:
 
 ```bash
-void bomb (int n , int m , int matriz [][m])
+void bomb (int n , int m , int matriz [][m] , int i)
 {
     matriz[i % n][j % m] = 0 ;
     matriz[(i + 1) % n][(j + 1) % m] = 0 ;
