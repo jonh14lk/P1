@@ -14,7 +14,7 @@ Exemplo:
 
 suponha que n pessoas estejam sentadas em uma mesa circular com os nomes A,B,C,D,E,F Dado um nome, precisamos imprimir todas as n pessoas (em ordem) começando pelo nome , por exemplo , se começarmos a imprimir a partir da pessoa E , deveremos imprimir E,F,A,B,C,D .
 
-```bash
+```c
 void print(char a[] , int n , int ind , int i) 
 { 
     if (i == 6) // se eu ja fiz 6 impressões , trabalho concluido
@@ -50,7 +50,7 @@ https://www.thehuxley.com/problem/1001?locale=pt_BR
 
 Exemplo de Implementação:
 
-```bash
+```c
 void bomb (int n , int m , int matriz [][m] , int i)
 {
     matriz[i % n][j % m] = 0 ;
