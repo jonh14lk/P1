@@ -84,7 +84,7 @@ int main()
       printf("\n");
    }
 
-   // Parte 3: Agora iremos liberar a memoria o que foi alocado
+   // Parte 3: Agora iremos liberar a memoria do que foi alocado
    // a funcao free desaloca o que foi alocado
 
 
