@@ -1,5 +1,5 @@
 // alocando arrays e matrizes dinamicamente usando malloc
-// usando memset para todas as posicoes de uma matriz/array com um determinado valor
+// usando memset para por em todas as posicoes de uma matriz/array um determinado valor
 // uso do free para desalocar memoria
 #include <stdio.h> 
 #include <string.h> 
