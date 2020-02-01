@@ -1,5 +1,6 @@
 // alocando arrays e matrizes dinamicamente usando malloc
-// usando memset para todas as posicoes de uma matriz/array com umm determinado valor
+// usando memset para todas as posicoes de uma matriz/array com um determinado valor
+// uso do free para desalocar memoria
 #include <stdio.h> 
 #include <string.h> 
 #include <stdlib.h>
@@ -83,5 +84,19 @@ int main()
       printf("\n");
    }
 
+   // Parte 3: Agora iremos liberar a memoria o que foi alocado
+   // a funcao free desaloca o que foi alocado
+
+
+   free(v); // desalocando o array 
+   printf("Array desalocado\n");
+
+   for (i = 0 ; i < n2 ; i++)
+   {
+      free(v2[i]); // desalocando cada coluna da matriz 
+   }
+
+   free(v2); // por ultimo libero oq sobrou das linhas da matriz
+   printf("Matriz desalocada\n");
    return 0 ;
 } 
