@@ -106,7 +106,7 @@ if (3 > 2)
 
 if (3 == 4)
 {
-	printf("3 eh igual a 4\n");
+  printf("3 eh igual a 4\n");
 }
 ```
 
@@ -123,16 +123,16 @@ Exemplos:
 
 if (3 == 4)
 {
-	printf("3 eh igual a 4\n");
+  printf("3 eh igual a 4\n");
 }
 else if (3 == 5)
 {
-	printf("3 eh igual a 5\n);
+  printf("3 eh igual a 5\n);
 }
 else if (3 == 3)
 {
-	printf("3 eh igual a 3\n");
-    printf("hello else if\n");
+  printf("3 eh igual a 3\n");
+  printf("hello else if\n");
 }
 ```
 
@@ -144,15 +144,15 @@ else if (3 == 3)
 
 if (3 == 4)
 {
-	printf("3 eh igual a 4\n");
+  printf("3 eh igual a 4\n");
 }
 else if (3 == 3)
 {
-	printf("3 eh igual a 3\n");
+  printf("3 eh igual a 3\n");
 }
 else if (3 == 3)
 {
-	printf("3 eh igual a 3 again\n");
+  printf("3 eh igual a 3 again\n");
 }
 ```
 
@@ -169,15 +169,15 @@ Exemplo:
 
 if (3 == 4)
 {
-	printf("3 eh igual a 4\n");
+  printf("3 eh igual a 4\n");
 }
 else if (3 == 5)
 {
-	printf("3 eh igual a 5\n");
+  printf("3 eh igual a 5\n");
 }
 else 
 {
-	printf("hello else\n");
+  printf("hello else\n");
 }
 ```
 
