@@ -43,4 +43,5 @@
 - [Lanchonete da Ambrosina](https://www.thehuxley.com/problem/12) 
 - [Olimpiadas](https://www.thehuxley.com/problem/58) 
 - [Intercâmbio](https://www.thehuxley.com/problem/133) 
+- [Árvore Genealógica](https://www.thehuxley.com/problem/126) 
 - [A Transportadora (THE FINAL BOSS)](https://www.thehuxley.com/problem/708) 
