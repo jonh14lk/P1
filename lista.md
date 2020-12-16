@@ -1,5 +1,6 @@
 # Questões para treino:
 
+- **Arrays**
 - [Aprendi FFT](https://www.thehuxley.com/problem/1036) 
 - [Aninha Cirandinha](https://www.thehuxley.com/problem/2909) 
 - [Deslocando Números](https://www.thehuxley.com/problem/2251) 
